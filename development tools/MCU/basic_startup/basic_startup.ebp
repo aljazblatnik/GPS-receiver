@@ -105,10 +105,14 @@
 		<Unit filename="cmsis\tz_context.h" />
 		<Unit filename="inc\main.h" />
 		<Unit filename="inc\pinout.h" />
+		<Unit filename="inc\spi_comm.h" />
 		<Unit filename="inc\stm32g441xx.h" />
 		<Unit filename="inc\stm32g4xx.h" />
 		<Unit filename="inc\system_stm32g4xx.h" />
 		<Unit filename="src\main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\spi_comm.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src\startup_stm32g441xx.S">

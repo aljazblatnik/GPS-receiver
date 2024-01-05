@@ -3,15 +3,19 @@
 #include "stm32g441xx.h"
 #include "stdint.h"
 #include "pinout.h"
+#include "spi_comm.h"
 
 // 120 MHz main CPU freq.
 void init();
 
 int main(void){
     init();
+    init_spi();
 
     // System startup
     LED_ON;
+
+    spi_send_data(0b01010101);
 
     while(1); // endless loop
 }

@@ -207,14 +207,23 @@
 
 1668535680 c:\users\aljaz\onedrive - univerza v ljubljani\projekti\gps sprejemnik\mcu\basic_startup\inc\system_stm32g4xx.h
 
-1700581639 source:c:\users\aljaz\onedrive - univerza v ljubljani\projekti\gps sprejemnik\mcu\basic_startup\src\main.c
+1704464305 source:c:\users\aljaz\onedrive - univerza v ljubljani\projekti\gps sprejemnik\mcu\basic_startup\src\main.c
 	"main.h"
 	"stm32g4xx.h"
 	"stm32g441xx.h"
 	"stdint.h"
 	"pinout.h"
+	"spi_comm.h"
 
 1668537464 c:\users\aljaz\onedrive - univerza v ljubljani\projekti\gps sprejemnik\mcu\basic_startup\inc\main.h
 
-1673873902 c:\users\aljaz\onedrive - univerza v ljubljani\projekti\gps sprejemnik\mcu\basic_startup\inc\pinout.h
+1700765282 c:\users\aljaz\onedrive - univerza v ljubljani\projekti\gps sprejemnik\mcu\basic_startup\inc\pinout.h
+
+1704465744 source:c:\users\aljaz\onedrive - univerza v ljubljani\projekti\gps sprejemnik\mcu\basic_startup\src\spi_comm.c
+	"stm32g4xx.h"
+	"stm32g441xx.h"
+	"stdint.h"
+	"pinout.h"
+
+1704463472 c:\users\aljaz\onedrive - univerza v ljubljani\projekti\gps sprejemnik\mcu\basic_startup\inc\spi_comm.h
 
