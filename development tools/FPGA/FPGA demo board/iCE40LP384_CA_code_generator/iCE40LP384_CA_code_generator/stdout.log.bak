@@ -1,0 +1,46 @@
+Running in Lattice mode
+
+
+Starting:    /home/kristof/lscc/iCEcube2.2020.12/synpbase/linux_a_64/mbin/synbatch
+Install:     /home/kristof/lscc/iCEcube2.2020.12/synpbase
+Hostname:    kristof-IdeaPad
+Date:        Fri Jan  5 15:29:29 2024
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro -batch iCE40LP384_CA_code_generator_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/iCE40LP384_CA_code_generator.srr"
+Running: iCE40LP384_CA_code_generator_Implmnt in foreground
+
+Running iCE40LP384_CA_code_generator_syn|iCE40LP384_CA_code_generator_Implmnt
+
+Running: compile (Compile) on iCE40LP384_CA_code_generator_syn|iCE40LP384_CA_code_generator_Implmnt
+# Fri Jan  5 15:29:29 2024
+
+Running: compile_flow (Compile Process) on iCE40LP384_CA_code_generator_syn|iCE40LP384_CA_code_generator_Implmnt
+# Fri Jan  5 15:29:29 2024
+
+Running: compiler (Compile Input) on iCE40LP384_CA_code_generator_syn|iCE40LP384_CA_code_generator_Implmnt
+# Fri Jan  5 15:29:29 2024
+compiler exited with errors
+Job failed on: iCE40LP384_CA_code_generator_syn|iCE40LP384_CA_code_generator_Implmnt
+
+Job: "compiler" terminated with error status: 2
+See log file: "/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/synlog/iCE40LP384_CA_code_generator_compiler.srr"
+# Fri Jan  5 15:29:29 2024
+
+Return Code: 2
+Run Time:00h:00m:00s
+Complete: Compile Process on iCE40LP384_CA_code_generator_syn|iCE40LP384_CA_code_generator_Implmnt
+Complete: Compile on iCE40LP384_CA_code_generator_syn|iCE40LP384_CA_code_generator_Implmnt
+Complete: Logic Synthesis on iCE40LP384_CA_code_generator_syn|iCE40LP384_CA_code_generator_Implmnt
+
+exit status=2
+
+exit status=2
+

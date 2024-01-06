@@ -1,0 +1,17 @@
+---------------------------------------
+Resource Usage Report for TOP 
+
+Mapping to part: ice40lp384qn32
+Cell usage:
+SB_LUT4         0 uses
+
+I/O ports: 16
+I/O primitives: 11
+SB_IO          11 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   0 (0%)
+
+@S |Mapping Summary:
+Total  LUTs: 0 (0%)
+

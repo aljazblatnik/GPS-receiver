@@ -1,0 +1,74 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40LP384QN32 (Lattice)
+
+---------------------------------------------------------------------
+########   Utilization report for  Top level view:   cagen   ########
+=====================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     18                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block cagen:	18 (42.86 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     4                  100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block cagen:	4 (9.52 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     14                 100 %                
+=================================================
+Total IO PADS in the block cagen:	14 (33.33 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   shift_reg_0   ########
+Instance path:   cagen.shift_reg_0                               
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     10                 55.6 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block cagen.shift_reg_0:	10 (23.81 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     2                  50 %                 
+=================================================
+Total COMBINATIONAL LOGIC in the block cagen.shift_reg_0:	2 (4.76 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   shift_reg_1   ########
+Instance path:   cagen.shift_reg_1                               
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     8                  44.4 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block cagen.shift_reg_1:	8 (19.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  25 %                 
+=================================================
+Total COMBINATIONAL LOGIC in the block cagen.shift_reg_1:	1 (2.38 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

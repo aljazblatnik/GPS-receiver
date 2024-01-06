@@ -1,0 +1,107 @@
+* ******************************************************************************
+
+* iCEcube Report
+
+* Version:            2020.12.27943
+
+* Build Date:         Dec 10 2020 17:24:17
+
+* File Generated:     Jan 5 2024 12:02:08
+
+* Purpose:            General info of design implementation
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Synthesis/Placement Summary:
+----------------------------
+    Status:  Successful
+    Runtime: 0 seconds
+
+Device Info:
+------------
+    Device Family: iCE40
+    Device:        iCE40LP384
+    Package:       QN32
+
+Design statistics:
+------------------
+    FFs:                  284
+    LUTs:                 314
+    RAMs:                 0
+    IOBs:                 16
+    GBs:                  2
+    PLLs:                 0
+
+Logic Resource Utilization:
+---------------------------
+    Total Logic Cells: 314/384
+        Combinational Logic Cells: 30       out of   384       7.8125%
+        Sequential Logic Cells:    284      out of   384       73.9583%
+        Logic Tiles:               44       out of   48        91.6667%
+    Registers: 
+        Logic Registers:           284      out of   384       73.9583%
+        IO Registers:              0        out of   280       0
+    Block RAMs:                    0        out of   0         -nan%
+    Pins:
+        Input Pins:                5        out of   21        23.8095%
+        Output Pins:               11       out of   21        52.381%
+        InOut Pins:                0        out of   21        0%
+    Global Buffers:                2        out of   8         25%
+    PLLs:                          0        out of   0       
+
+IO Bank Utilization:
+--------------------
+    Bank 3: 6        out of   6         100%
+    Bank 1: 4        out of   5         80%
+    Bank 0: 6        out of   6         100%
+    Bank 2: 0        out of   4         0%
+
+Detailed I/O Info:
+------------------
+    Input Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                   Signal Name
+    ----------  ---------  -----------  -------  -------  -----------                   -----------
+    5           Input      SB_LVCMOS    No       3        Simple Input                  BUTTON1  
+    6           Input      SB_LVCMOS    No       3        Simple Input                  BUTTON2  
+    7           Input      SB_LVCMOS    No       3        Simple Input                  BUTTON3  
+    8           Input      SB_LVCMOS    No       3        Simple Input                  clk      
+    20          Input      SB_LVCMOS    No       1        Simple Input                  BNC2     
+
+    Output Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                   Signal Name
+    ----------  ---------  -----------  -------  -------  -----------                   -----------
+    1           Output     SB_LVCMOS    No       3        Simple Output                 LED[1]   
+    2           Output     SB_LVCMOS    No       3        Simple Output                 LED[0]   
+    18          Output     SB_LVCMOS    No       1        Simple Output                 BNC1     
+    22          Output     SB_LVCMOS    No       1        Output Tristatable by Enable  LED[9]   
+    23          Output     SB_LVCMOS    No       1        Output Tristatable by Enable  LED[8]   
+    26          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  LED[7]   
+    27          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  LED[6]   
+    29          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  LED[5]   
+    30          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  LED[4]   
+    31          Output     SB_LVCMOS    No       0        Simple Output                 LED[3]   
+    32          Output     SB_LVCMOS    No       0        Simple Output                 LED[2]   
+
+Detailed Global Buffer Info:
+----------------------------
+    Buffer Number  IO Bank  Driven By  Fanout  Signal Name    
+    -------------  -------  ---------  ------  -----------    
+    1              3        IO         284     clk_c_g        
+    6              3                   260     BUTTON3_c_i_g  
+
+
+Router Summary:
+---------------
+    Status:  Successful
+    Runtime: 1 seconds
+
+Routing Resource Utilization:
+-----------------------------
+              Local line of tile     1256 out of   7992      15.7157%
+                          Span 4       38 out of   2320      1.63793%
+                         Span 12        2 out of    528      0.378788%
+                  Global network        2 out of      8      25%
+      Vertical Inter-LUT Connect        9 out of    336      2.67857%
+

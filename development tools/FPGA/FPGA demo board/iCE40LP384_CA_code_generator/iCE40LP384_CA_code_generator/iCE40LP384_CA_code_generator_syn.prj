@@ -1,0 +1,60 @@
+#-- Synopsys, Inc.
+#-- Project file /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_syn.prj
+#project files
+
+add_file -verilog -lib work "../cagen.v" 
+add_file -verilog -lib work "../nco.v" 
+add_file -verilog -lib work "../misc.v" 
+add_file -verilog -lib work "../top.v" 
+add_file -verilog -lib work "../spi_core.v" 
+#implementation: "iCE40LP384_CA_code_generator_Implmnt"
+impl -add iCE40LP384_CA_code_generator_Implmnt -type fpga
+
+#implementation attributes
+set_option -vlog_std v2001
+set_option -project_relative_includes 1
+
+#device options
+set_option -technology SBTiCE40
+set_option -part iCE40LP384
+set_option -package QN32
+set_option -speed_grade 
+set_option -part_companion ""
+
+#compilation/mapping options
+
+# mapper_options
+set_option -frequency auto
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# Silicon Blue iCE40
+set_option -maxfan 10000
+set_option -disable_io_insertion 0
+set_option -pipe 1
+set_option -retiming 0
+set_option -update_models_cp 0
+set_option -fixgatedclocks 2
+set_option -fixgeneratedclocks 0
+
+# NFilter
+set_option -popfeed 0
+set_option -constprop 0
+set_option -createhierarchy 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_format "edif"
+project -result_file ./iCE40LP384_CA_code_generator_Implmnt/iCE40LP384_CA_code_generator.edf
+project -log_file "./iCE40LP384_CA_code_generator_Implmnt/iCE40LP384_CA_code_generator.srr"
+impl -active iCE40LP384_CA_code_generator_Implmnt
+project -run synthesis -clean

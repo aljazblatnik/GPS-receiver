@@ -1,0 +1,78 @@
+Running in Lattice mode
+
+
+Starting:    /home/kristof/lscc/iCEcube2.2020.12/synpbase/linux_a_64/mbin/synbatch
+Install:     /home/kristof/lscc/iCEcube2.2020.12/synpbase
+Hostname:    kristof-IdeaPad
+Date:        Fri Jan  5 15:31:21 2024
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro -batch iCE40LP384_CA_code_generator_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/iCE40LP384_CA_code_generator.srr"
+Running: iCE40LP384_CA_code_generator_Implmnt in foreground
+
+Running iCE40LP384_CA_code_generator_syn|iCE40LP384_CA_code_generator_Implmnt
+
+Running: compile (Compile) on iCE40LP384_CA_code_generator_syn|iCE40LP384_CA_code_generator_Implmnt
+# Fri Jan  5 15:31:21 2024
+
+Running: compile_flow (Compile Process) on iCE40LP384_CA_code_generator_syn|iCE40LP384_CA_code_generator_Implmnt
+# Fri Jan  5 15:31:21 2024
+
+Running: compiler (Compile Input) on iCE40LP384_CA_code_generator_syn|iCE40LP384_CA_code_generator_Implmnt
+# Fri Jan  5 15:31:21 2024
+Copied /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/synwork/iCE40LP384_CA_code_generator_comp.srs to /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/iCE40LP384_CA_code_generator.srs
+
+compiler completed
+# Fri Jan  5 15:31:22 2024
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Running: multi_srs_gen (Multi-srs Generator) on iCE40LP384_CA_code_generator_syn|iCE40LP384_CA_code_generator_Implmnt
+# Fri Jan  5 15:31:22 2024
+
+multi_srs_gen completed
+# Fri Jan  5 15:31:23 2024
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/synwork/iCE40LP384_CA_code_generator_mult.srs to /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/iCE40LP384_CA_code_generator.srs
+Complete: Compile Process on iCE40LP384_CA_code_generator_syn|iCE40LP384_CA_code_generator_Implmnt
+
+Running: premap (Pre-mapping) on iCE40LP384_CA_code_generator_syn|iCE40LP384_CA_code_generator_Implmnt
+# Fri Jan  5 15:31:23 2024
+
+premap completed with warnings
+# Fri Jan  5 15:31:23 2024
+
+Return Code: 1
+Run Time:00h:00m:00s
+Complete: Compile on iCE40LP384_CA_code_generator_syn|iCE40LP384_CA_code_generator_Implmnt
+
+Running: map (Map) on iCE40LP384_CA_code_generator_syn|iCE40LP384_CA_code_generator_Implmnt
+# Fri Jan  5 15:31:23 2024
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on iCE40LP384_CA_code_generator_syn|iCE40LP384_CA_code_generator_Implmnt
+# Fri Jan  5 15:31:23 2024
+Copied /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/synwork/iCE40LP384_CA_code_generator_m.srm to /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/iCE40LP384_CA_code_generator.srm
+
+fpga_mapper completed with warnings
+# Fri Jan  5 15:31:23 2024
+
+Return Code: 1
+Run Time:00h:00m:00s
+Complete: Map on iCE40LP384_CA_code_generator_syn|iCE40LP384_CA_code_generator_Implmnt
+Complete: Logic Synthesis on iCE40LP384_CA_code_generator_syn|iCE40LP384_CA_code_generator_Implmnt
+
+exit status=0
+
+exit status=0
+
