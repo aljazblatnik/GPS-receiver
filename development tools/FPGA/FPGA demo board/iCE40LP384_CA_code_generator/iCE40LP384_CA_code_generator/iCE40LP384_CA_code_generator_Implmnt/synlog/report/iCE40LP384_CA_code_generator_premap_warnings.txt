@@ -1,0 +1,8 @@
+@W: FX469 :|Net un2[7] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un2[6] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un2[5] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un2[4] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un2[3] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un2[2] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un2[1] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: FX469 :|Net un2[0] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.

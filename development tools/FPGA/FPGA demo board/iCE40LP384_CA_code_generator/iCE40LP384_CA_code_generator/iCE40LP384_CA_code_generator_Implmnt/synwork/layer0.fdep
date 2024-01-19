@@ -1,0 +1,39 @@
+#OPTIONS:"|-layerid|0|-orig_srs|/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/synwork/iCE40LP384_CA_code_generator_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/|-I|/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib|-v2001|-devicelib|/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"/home/kristof/lscc/iCEcube2.2020.12/synpbase/linux_a_64/c_ver":1701685975
+#CUR:"/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v":1701685975
+#CUR:"/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib/vlog/hypermods.v":1701685975
+#CUR:"/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib/vlog/umr_capim.v":1701685975
+#CUR:"/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_objects.v":1701685975
+#CUR:"/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_pipes.svh":1701685975
+#CUR:"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/cagen.v":1704454092
+#CUR:"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":1704454040
+#CUR:"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/misc.v":1704453018
+#CUR:"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":1704465077
+#CUR:"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v":1704464814
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/cagen.v" verilog
+1			"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v" verilog
+2			"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/misc.v" verilog
+3			"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v" verilog
+4			"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v" verilog
+#Dependency Lists(Uses List)
+0 2
+1 2
+2 -1
+3 4
+4 -1
+#Dependency Lists(Users Of)
+0 -1
+1 -1
+2 0 1
+3 -1
+4 3
+#Design Unit to File Association
+module work shift_reg 2
+module work cagen 0
+module work vco 1
+module work nco 1
+module work xor_mixer 2
+module work spi_core 4
+module work TOP 3

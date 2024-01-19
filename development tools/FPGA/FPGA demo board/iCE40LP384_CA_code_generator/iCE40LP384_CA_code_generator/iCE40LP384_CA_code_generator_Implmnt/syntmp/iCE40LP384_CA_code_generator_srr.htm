@@ -1,0 +1,416 @@
+<html><body><samp><pre>
+<!@TC:1704465081>
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: /home/kristof/lscc/iCEcube2.2020.12/synpbase
+#OS: Linux 
+#Hostname: kristof-IdeaPad
+
+# Fri Jan  5 15:31:21 2024
+
+#Implementation: iCE40LP384_CA_code_generator_Implmnt
+
+<a name=compilerReport1></a>Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1704465081> | Running in 64-bit mode 
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+<a name=compilerReport2></a>Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1704465081> | Running in 64-bit mode 
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Running on host :kristof-IdeaPad
+@I::"/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v" (library work)
+@I::"/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib/vlog/umr_capim.v" (library snps_haps)
+@I::"/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_objects.v" (library snps_haps)
+@I::"/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_pipes.svh" (library snps_haps)
+@I::"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/cagen.v" (library work)
+@I::"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v" (library work)
+@I::"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/misc.v" (library work)
+@I::"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v" (library work)
+@I::"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v" (library work)
+Verilog syntax check successful!
+Selecting top level module TOP
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:1:7:1:15:@N:CG364:@XP_MSG">spi_core.v(1)</a><!@TM:1704465081> | Synthesizing module spi_core in library work.
+
+<font color=#A52A2A>@W:<a href="@W:CG1273:@XP_HELP">CG1273</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:23:11:23:18:@W:CG1273:@XP_MSG">spi_core.v(23)</a><!@TM:1704465081> | An input port (port tx_flag) is the target of an assignment - please check if this is intentional</font>
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:1:7:1:10:@N:CG364:@XP_MSG">top.v(1)</a><!@TM:1704465081> | Synthesizing module TOP in library work.
+
+<font color=#A52A2A>@W:<a href="@W:CG781:@XP_HELP">CG781</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:14:13:14:16:@W:CG781:@XP_MSG">top.v(14)</a><!@TM:1704465081> | Input spi_ss on instance spi is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. </font>
+<font color=#A52A2A>@W:<a href="@W:CG781:@XP_HELP">CG781</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:14:13:14:16:@W:CG781:@XP_MSG">top.v(14)</a><!@TM:1704465081> | Input rst on instance spi is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. </font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:19:19:19:20:@W:CS263:@XP_MSG">top.v(19)</a><!@TM:1704465081> | Port-width mismatch for port tx_enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:18:17:18:18:@W:CS263:@XP_MSG">top.v(18)</a><!@TM:1704465081> | Port-width mismatch for port tx_flag. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:17:22:17:31:@W:CS263:@XP_MSG">top.v(17)</a><!@TM:1704465081> | Port-width mismatch for port spi_to_fpga. The port definition is 8 bits, but the actual port connection bit width is 6. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CG360:@XP_HELP">CG360</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:7:11:7:15:@W:CG360:@XP_MSG">top.v(7)</a><!@TM:1704465081> | Removing wire BNC1, as there is no assignment to it.</font>
+<font color=#A52A2A>@W:<a href="@W:CL156:@XP_HELP">CL156</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:17:22:17:31:@W:CL156:@XP_MSG">top.v(17)</a><!@TM:1704465081> | *Input LED[6] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.</font>
+<font color=#A52A2A>@W:<a href="@W:CL156:@XP_HELP">CL156</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:17:22:17:31:@W:CL156:@XP_MSG">top.v(17)</a><!@TM:1704465081> | *Input LED[8] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.</font>
+<font color=#A52A2A>@W:<a href="@W:CL157:@XP_HELP">CL157</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:6:17:6:20:@W:CL157:@XP_MSG">top.v(6)</a><!@TM:1704465081> | *Output LED has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.</font>
+<font color=#A52A2A>@W:<a href="@W:CL157:@XP_HELP">CL157</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:7:11:7:15:@W:CL157:@XP_MSG">top.v(7)</a><!@TM:1704465081> | *Output BNC1 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.</font>
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:2:10:2:13:@N:CL159:@XP_MSG">top.v(2)</a><!@TM:1704465081> | Input clk is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:3:10:3:17:@N:CL159:@XP_MSG">top.v(3)</a><!@TM:1704465081> | Input BUTTON1 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:4:10:4:17:@N:CL159:@XP_MSG">top.v(4)</a><!@TM:1704465081> | Input BUTTON2 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:5:10:5:17:@N:CL159:@XP_MSG">top.v(5)</a><!@TM:1704465081> | Input BUTTON3 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:8:10:8:14:@N:CL159:@XP_MSG">top.v(8)</a><!@TM:1704465081> | Input BNC2 is unused.
+<font color=#A52A2A>@W:<a href="@W:CL138:@XP_HELP">CL138</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@W:CL138:@XP_MSG">spi_core.v(25)</a><!@TM:1704465081> | Removing register 'tx_flag_reg' because it is only assigned 0 or its original value.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@W:CL169:@XP_MSG">spi_core.v(25)</a><!@TM:1704465081> | Pruning unused register stevec_out[3:0]. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL305:@XP_HELP">CL305</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@W:CL305:@XP_MSG">spi_core.v(25)</a><!@TM:1704465081> | Optimizing flip-flop that can only be initialized externally (flip-flop that drives itself)</font>
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:5:10:5:16:@N:CL159:@XP_MSG">spi_core.v(5)</a><!@TM:1704465081> | Input spi_ss is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:8:10:8:13:@N:CL159:@XP_MSG">spi_core.v(8)</a><!@TM:1704465081> | Input rst is unused.
+<font color=#A52A2A>@W:<a href="@W:CL158:@XP_HELP">CL158</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:10:16:10:27:@W:CL158:@XP_MSG">spi_core.v(10)</a><!@TM:1704465081> | Inout fpga_to_spi is unused</font>
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:12:10:12:17:@N:CL159:@XP_MSG">spi_core.v(12)</a><!@TM:1704465081> | Input tx_flag is unused.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jan  5 15:31:21 2024
+
+###########################################################]
+<a name=compilerReport3></a>Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1704465081> | Running in 64-bit mode 
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:1:7:1:10:@N:NF107:@XP_MSG">top.v(1)</a><!@TM:1704465081> | Selected library: work cell: TOP view verilog as top level
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:1:7:1:10:@N:NF107:@XP_MSG">top.v(1)</a><!@TM:1704465081> | Selected library: work cell: TOP view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jan  5 15:31:21 2024
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jan  5 15:31:21 2024
+
+###########################################################]
+<a name=compilerReport4></a>Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1704465083> | Running in 64-bit mode 
+File /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/synwork/iCE40LP384_CA_code_generator_comp.srs changed - recompiling
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:1:7:1:10:@N:NF107:@XP_MSG">top.v(1)</a><!@TM:1704465083> | Selected library: work cell: TOP view verilog as top level
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:1:7:1:10:@N:NF107:@XP_MSG">top.v(1)</a><!@TM:1704465083> | Selected library: work cell: TOP view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jan  5 15:31:22 2024
+
+###########################################################]
+Pre-mapping Report
+
+# Fri Jan  5 15:31:23 2024
+
+<a name=mapperReport5></a>Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 09:30:53</a>
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@A:<a href="@A:MF827:@XP_HELP">MF827</a> : <!@TM:1704465083> | No constraint file specified. 
+@L: /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/iCE40LP384_CA_code_generator_scck.rpt 
+Printing clock  summary report in "/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/iCE40LP384_CA_code_generator_scck.rpt" file 
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1704465083> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1704465083> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+<font color=#A52A2A>@W:<a href="@W:FX469:@XP_HELP">FX469</a> : <!@TM:1704465083> | Net un2[7] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.</font> 
+<font color=#A52A2A>@W:<a href="@W:FX469:@XP_HELP">FX469</a> : <!@TM:1704465083> | Net un2[6] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.</font> 
+<font color=#A52A2A>@W:<a href="@W:FX469:@XP_HELP">FX469</a> : <!@TM:1704465083> | Net un2[5] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.</font> 
+<font color=#A52A2A>@W:<a href="@W:FX469:@XP_HELP">FX469</a> : <!@TM:1704465083> | Net un2[4] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.</font> 
+<font color=#A52A2A>@W:<a href="@W:FX469:@XP_HELP">FX469</a> : <!@TM:1704465083> | Net un2[3] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.</font> 
+<font color=#A52A2A>@W:<a href="@W:FX469:@XP_HELP">FX469</a> : <!@TM:1704465083> | Net un2[2] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.</font> 
+<font color=#A52A2A>@W:<a href="@W:FX469:@XP_HELP">FX469</a> : <!@TM:1704465083> | Net un2[1] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.</font> 
+<font color=#A52A2A>@W:<a href="@W:FX469:@XP_HELP">FX469</a> : <!@TM:1704465083> | Net un2[0] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.</font> 
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:7:11:7:15:@N:MO111:@XP_MSG">top.v(7)</a><!@TM:1704465083> | Tristate driver BNC1 (in view: work.TOP(verilog)) on net BNC1 (in view: work.TOP(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:17:22:17:31:@N:MO111:@XP_MSG">top.v(17)</a><!@TM:1704465083> | Tristate driver LED_1 (in view: work.TOP(verilog)) on net LED[9] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:17:22:17:31:@N:MO111:@XP_MSG">top.v(17)</a><!@TM:1704465083> | Tristate driver LED_2 (in view: work.TOP(verilog)) on net LED[8] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:17:22:17:31:@N:MO111:@XP_MSG">top.v(17)</a><!@TM:1704465083> | Tristate driver LED_3 (in view: work.TOP(verilog)) on net LED[7] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:17:22:17:31:@N:MO111:@XP_MSG">top.v(17)</a><!@TM:1704465083> | Tristate driver LED_4 (in view: work.TOP(verilog)) on net LED[6] (in view: work.TOP(verilog)) has its enable tied to GND.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=0  set on top level netlist TOP
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+<a name=mapperReport6></a>Clock Summary</a>
+*****************
+
+Start     Requested     Requested     Clock     Clock     Clock
+Clock     Frequency     Period        Type      Group     Load 
+---------------------------------------------------------------
+===============================================================
+
+Finished Pre Mapping Phase.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:7:11:7:15:@N:MO111:@XP_MSG">top.v(7)</a><!@TM:1704465083> | Tristate driver BNC1 (in view: work.TOP(verilog)) on net BNC1 (in view: work.TOP(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:17:22:17:31:@N:MO111:@XP_MSG">top.v(17)</a><!@TM:1704465083> | Tristate driver LED_1 (in view: work.TOP(verilog)) on net LED[9] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:17:22:17:31:@N:MO111:@XP_MSG">top.v(17)</a><!@TM:1704465083> | Tristate driver LED_2 (in view: work.TOP(verilog)) on net LED[8] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:17:22:17:31:@N:MO111:@XP_MSG">top.v(17)</a><!@TM:1704465083> | Tristate driver LED_3 (in view: work.TOP(verilog)) on net LED[7] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:17:22:17:31:@N:MO111:@XP_MSG">top.v(17)</a><!@TM:1704465083> | Tristate driver LED_4 (in view: work.TOP(verilog)) on net LED[6] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1704465083> | Writing default property annotation file /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/iCE40LP384_CA_code_generator.sap. 
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@N:BN362:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Removing sequential instance spi_to_fpga_reg[6] (in view: work.spi_core(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@N:BN362:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Removing sequential instance spi_to_fpga_reg[7] (in view: work.spi_core(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Jan  5 15:31:23 2024
+
+###########################################################]
+Map & Optimize Report
+
+# Fri Jan  5 15:31:23 2024
+
+<a name=mapperReport7></a>Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 09:30:53</a>
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1704465083> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1704465083> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:7:11:7:15:@N:MO111:@XP_MSG">top.v(7)</a><!@TM:1704465083> | Tristate driver BNC1 (in view: work.TOP(verilog)) on net BNC1 (in view: work.TOP(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:17:22:17:31:@N:MO111:@XP_MSG">top.v(17)</a><!@TM:1704465083> | Tristate driver LED_1 (in view: work.TOP(verilog)) on net LED[9] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:17:22:17:31:@N:MO111:@XP_MSG">top.v(17)</a><!@TM:1704465083> | Tristate driver LED_2 (in view: work.TOP(verilog)) on net LED[8] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:17:22:17:31:@N:MO111:@XP_MSG">top.v(17)</a><!@TM:1704465083> | Tristate driver LED_3 (in view: work.TOP(verilog)) on net LED[7] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v:17:22:17:31:@N:MO111:@XP_MSG">top.v(17)</a><!@TM:1704465083> | Tristate driver LED_4 (in view: work.TOP(verilog)) on net LED[6] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <!@TM:1704465083> | Tristate driver tri0_inst (in view: work.TOP(verilog)) on net un2[7] (in view: work.TOP(verilog)) has its enable tied to GND. 
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <!@TM:1704465083> | Tristate driver tri1_inst (in view: work.TOP(verilog)) on net un2[6] (in view: work.TOP(verilog)) has its enable tied to GND. 
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <!@TM:1704465083> | Tristate driver tri2_inst (in view: work.TOP(verilog)) on net un2[5] (in view: work.TOP(verilog)) has its enable tied to GND. 
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <!@TM:1704465083> | Tristate driver tri3_inst (in view: work.TOP(verilog)) on net un2[4] (in view: work.TOP(verilog)) has its enable tied to GND. 
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <!@TM:1704465083> | Tristate driver tri4_inst (in view: work.TOP(verilog)) on net un2[3] (in view: work.TOP(verilog)) has its enable tied to GND. 
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N:<a href="@N:MT206:@XP_HELP">MT206</a> : <!@TM:1704465083> | Auto Constrain mode is enabled 
+<font color=#A52A2A>@W:<a href="@W:FX1039:@XP_HELP">FX1039</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@W:FX1039:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | User-specified initial value defined for instance spi.stevec_in[3:0] is being ignored. </font>
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@N:BN362:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Removing sequential instance spi_to_fpga_reg[6] (in view: work.spi_core(verilog)) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@A:BN291:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Boundary register spi_to_fpga_reg[6] (in view: work.spi_core(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@N:BN362:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Removing sequential instance spi_to_fpga_reg[7] (in view: work.spi_core(verilog)) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@A:BN291:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Boundary register spi_to_fpga_reg[7] (in view: work.spi_core(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@W:MO129:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Sequential instance spi.stevec_in[0] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@W:MO129:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Sequential instance spi.stevec_in[1] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@W:MO129:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Sequential instance spi.stevec_in[2] is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@W:MO129:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Sequential instance spi.stevec_in[3] is reduced to a combinational gate by constant propagation.</font>
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@N:BN362:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Removing sequential instance spi_to_fpga_reg[0] (in view: work.spi_core(verilog)) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@A:BN291:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Boundary register spi_to_fpga_reg[0] (in view: work.spi_core(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@N:BN362:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Removing sequential instance spi_to_fpga_reg[1] (in view: work.spi_core(verilog)) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@A:BN291:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Boundary register spi_to_fpga_reg[1] (in view: work.spi_core(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@N:BN362:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Removing sequential instance spi_to_fpga_reg[2] (in view: work.spi_core(verilog)) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@A:BN291:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Boundary register spi_to_fpga_reg[2] (in view: work.spi_core(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@N:BN362:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Removing sequential instance spi_to_fpga_reg[3] (in view: work.spi_core(verilog)) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@A:BN291:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Boundary register spi_to_fpga_reg[3] (in view: work.spi_core(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@N:BN362:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Removing sequential instance spi_to_fpga_reg[4] (in view: work.spi_core(verilog)) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@A:BN291:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Boundary register spi_to_fpga_reg[4] (in view: work.spi_core(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@N:BN362:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Removing sequential instance spi_to_fpga_reg[5] (in view: work.spi_core(verilog)) because it does not drive other instances.
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@A:BN291:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Boundary register spi_to_fpga_reg[5] (in view: work.spi_core(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@N:BN362:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Removing sequential instance reg_in[0] (in view: work.spi_core(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@N:BN362:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Removing sequential instance reg_in[1] (in view: work.spi_core(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@N:BN362:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Removing sequential instance reg_in[2] (in view: work.spi_core(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@N:BN362:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Removing sequential instance reg_in[3] (in view: work.spi_core(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@N:BN362:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Removing sequential instance reg_in[4] (in view: work.spi_core(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@N:BN362:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Removing sequential instance reg_in[5] (in view: work.spi_core(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@N:BN362:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Removing sequential instance reg_in[6] (in view: work.spi_core(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v:25:4:25:10:@N:BN362:@XP_MSG">spi_core.v(25)</a><!@TM:1704465083> | Removing sequential instance reg_in[7] (in view: work.spi_core(verilog)) because it does not drive other instances.
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+<a name=clockReport8></a>#### START OF CLOCK OPTIMIZATION REPORT #####[</a>
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 133MB)
+
+Writing Analyst data base /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/synwork/iCE40LP384_CA_code_generator_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+Writing EDIF Netlist and constraint files
+@N:<a href="@N:BW103:@XP_HELP">BW103</a> : <!@TM:1704465083> | The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns. 
+@N:<a href="@N:BW107:@XP_HELP">BW107</a> : <!@TM:1704465083> | Synopsys Constraint File capacitance units using default value of 1pF  
+@N:<a href="@N:FX1056:@XP_HELP">FX1056</a> : <!@TM:1704465083> | Writing EDF file: /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/iCE40LP384_CA_code_generator.edf 
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+<a name=timingReport9></a>##### START OF TIMING REPORT #####[</a>
+# Timing Report written on Fri Jan  5 15:31:23 2024
+#
+
+
+Top view:               TOP
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1704465083> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1704465083> | Clock constraints include only register-to-register paths associated with each individual clock. 
+
+
+
+<a name=performanceSummary10></a>Performance Summary</a>
+*******************
+
+
+Worst slack in design: NA
+
+
+
+
+
+
+<a name=clockRelationships11></a>Clock Relationships</a>
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+<a name=interfaceInfo12></a>Interface Information </a>
+*********************
+
+No IO constraint found
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+---------------------------------------
+<a name=resourceUsage13></a>Resource Usage Report for TOP </a>
+
+Mapping to part: ice40lp384qn32
+Cell usage:
+SB_LUT4         0 uses
+
+I/O ports: 16
+I/O primitives: 11
+SB_IO          11 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   0 (0%)
+Total load per clock:
+
+@S |Mapping Summary:
+Total  LUTs: 0 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 25MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Jan  5 15:31:23 2024
+
+###########################################################]
+
+</pre></samp></body></html>

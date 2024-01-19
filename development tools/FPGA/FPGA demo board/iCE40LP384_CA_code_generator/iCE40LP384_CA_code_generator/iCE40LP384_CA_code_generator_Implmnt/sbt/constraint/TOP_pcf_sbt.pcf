@@ -1,0 +1,32 @@
+# ##############################################################################
+
+# iCEcube PCF
+
+# Version:            2020.12.27943
+
+# File Generated:     Jan 5 2024 09:56:23
+
+# Family & Device:    iCE40LP384
+
+# Package:            QN32
+
+# ##############################################################################
+
+###IOSet List 16
+set_io BNC1 18 -io_std SB_LVCMOS -pullup no
+set_io BNC2 20 -io_std SB_LVCMOS -pullup no
+set_io BUTTON1 5 -io_std SB_LVCMOS -pullup no
+set_io BUTTON2 6 -io_std SB_LVCMOS -pullup no
+set_io BUTTON3 7 -io_std SB_LVCMOS -pullup no
+set_io LED[0] 2 -io_std SB_LVCMOS -pullup no
+set_io LED[1] 1 -io_std SB_LVCMOS -pullup no
+set_io LED[2] 32 -io_std SB_LVCMOS -pullup no
+set_io LED[3] 31 -io_std SB_LVCMOS -pullup no
+set_io LED[4] 30 -io_std SB_LVCMOS -pullup no
+set_io LED[5] 29 -io_std SB_LVCMOS -pullup no
+set_io LED[6] 27 -io_std SB_LVCMOS -pullup no
+set_io LED[7] 26 -io_std SB_LVCMOS -pullup no
+set_io LED[8] 23 -io_std SB_LVCMOS -pullup no
+set_io LED[9] 22 -io_std SB_LVCMOS -pullup no
+set_io clk 8 -io_std SB_LVCMOS -pullup no
+

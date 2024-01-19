@@ -1,0 +1,18 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40LP384QN32 (Lattice)
+
+-------------------------------------------------------------------
+########   Utilization report for  Top level view:   TOP   ########
+===================================================================
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     11                 100 %                
+=================================================
+Total IO PADS in the block TOP:	11 (84.62 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

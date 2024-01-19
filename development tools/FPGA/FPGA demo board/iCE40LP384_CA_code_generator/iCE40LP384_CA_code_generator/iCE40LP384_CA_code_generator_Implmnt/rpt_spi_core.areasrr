@@ -1,0 +1,34 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40LP384QN32 (Lattice)
+
+------------------------------------------------------------------------
+########   Utilization report for  Top level view:   spi_core   ########
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     21                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block spi_core:	21 (26.25 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     21                 100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block spi_core:	21 (26.25 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     36                 100 %                
+=================================================
+Total IO PADS in the block spi_core:	36 (45.00 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

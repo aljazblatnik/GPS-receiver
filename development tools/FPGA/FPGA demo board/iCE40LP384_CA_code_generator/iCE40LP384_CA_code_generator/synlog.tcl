@@ -1,0 +1,1 @@
+project -load iCE40LP384_CA_code_generator_syn.prj
