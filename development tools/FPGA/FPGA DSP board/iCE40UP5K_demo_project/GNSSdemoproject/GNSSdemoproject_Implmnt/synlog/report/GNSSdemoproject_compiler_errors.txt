@@ -1,0 +1,2 @@
+@E: CS168 :"C:\Users\Aljaz\OneDrive - Univerza v Ljubljani\PROJEKTI\GPS sprejemnik\FPGA\iCE40UP5K-GNSS-FPGA-board\iCE40UP5K_demo_project\top.v":21:21:21:21|Port GLOBAL_BUFFER_OUTPUT does not exist
+

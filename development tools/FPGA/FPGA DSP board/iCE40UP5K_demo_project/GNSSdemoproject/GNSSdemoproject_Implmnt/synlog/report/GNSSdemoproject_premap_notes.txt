@@ -1,0 +1,5 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO111 :"c:\users\aljaz\onedrive - univerza v ljubljani\projekti\gps sprejemnik\fpga\ice40up5k-gnss-fpga-board\ice40up5k_demo_project\top.v":4:11:4:13|Tristate driver out (in view: work.TOP(verilog)) on net out (in view: work.TOP(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\aljaz\onedrive - univerza v ljubljani\projekti\gps sprejemnik\fpga\ice40up5k-gnss-fpga-board\ice40up5k_demo_project\top.v":4:11:4:13|Tristate driver out (in view: work.TOP(verilog)) on net out (in view: work.TOP(verilog)) has its enable tied to GND.
+@N: BN225 |Writing default property annotation file C:\Users\Aljaz\OneDrive - Univerza v Ljubljani\PROJEKTI\GPS sprejemnik\FPGA\iCE40UP5K-GNSS-FPGA-board\iCE40UP5K_demo_project\GNSSdemoproject\GNSSdemoproject_Implmnt\GNSSdemoproject.sap.

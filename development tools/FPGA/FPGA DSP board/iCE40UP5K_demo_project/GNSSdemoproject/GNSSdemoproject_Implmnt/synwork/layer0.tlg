@@ -1,0 +1,6 @@
+Selecting top level module TOP
+@N: CG364 :"C:\Users\Aljaz\OneDrive - Univerza v Ljubljani\PROJEKTI\GPS sprejemnik\FPGA\iCE40UP5K-GNSS-FPGA-board\iCE40UP5K_demo_project\top.v":1:7:1:9|Synthesizing module TOP in library work.
+
+@W: CG360 :"C:\Users\Aljaz\OneDrive - Univerza v Ljubljani\PROJEKTI\GPS sprejemnik\FPGA\iCE40UP5K-GNSS-FPGA-board\iCE40UP5K_demo_project\top.v":4:11:4:13|Removing wire out, as there is no assignment to it.
+@W: CL157 :"C:\Users\Aljaz\OneDrive - Univerza v Ljubljani\PROJEKTI\GPS sprejemnik\FPGA\iCE40UP5K-GNSS-FPGA-board\iCE40UP5K_demo_project\top.v":4:11:4:13|*Output out has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"C:\Users\Aljaz\OneDrive - Univerza v Ljubljani\PROJEKTI\GPS sprejemnik\FPGA\iCE40UP5K-GNSS-FPGA-board\iCE40UP5K_demo_project\top.v":3:10:3:13|Input clk2 is unused.

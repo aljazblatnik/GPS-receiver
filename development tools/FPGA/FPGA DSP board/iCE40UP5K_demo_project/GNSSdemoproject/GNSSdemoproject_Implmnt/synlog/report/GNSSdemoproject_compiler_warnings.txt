@@ -1,0 +1,4 @@
+@W: CG921 :"C:\Users\Aljaz\OneDrive - Univerza v Ljubljani\PROJEKTI\GPS sprejemnik\FPGA\iCE40UP5K-GNSS-FPGA-board\iCE40UP5K_demo_project\top.v":8:5:8:8|data is already declared in this scope.
+@W: CG360 :"C:\Users\Aljaz\OneDrive - Univerza v Ljubljani\PROJEKTI\GPS sprejemnik\FPGA\iCE40UP5K-GNSS-FPGA-board\iCE40UP5K_demo_project\top.v":4:11:4:13|Removing wire out, as there is no assignment to it.
+@W: CL157 :"C:\Users\Aljaz\OneDrive - Univerza v Ljubljani\PROJEKTI\GPS sprejemnik\FPGA\iCE40UP5K-GNSS-FPGA-board\iCE40UP5K_demo_project\top.v":4:11:4:13|*Output out has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+

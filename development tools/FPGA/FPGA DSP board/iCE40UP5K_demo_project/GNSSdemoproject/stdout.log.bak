@@ -1,0 +1,46 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\iCEcube2.2020.12\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\iCEcube2.2020.12\synpbase
+Hostname:    ALJAZ-ELITEDESK
+Date:        Sat Jan 13 21:51:30 2024
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro -batch GNSSdemoproject_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "C:\Users\Aljaz\OneDrive - Univerza v Ljubljani\PROJEKTI\GPS sprejemnik\FPGA\iCE40UP5K-GNSS-FPGA-board\iCE40UP5K_demo_project\GNSSdemoproject\GNSSdemoproject_Implmnt\GNSSdemoproject.srr"
+Running: GNSSdemoproject_Implmnt in foreground
+
+Running GNSSdemoproject_syn|GNSSdemoproject_Implmnt
+
+Running: compile (Compile) on GNSSdemoproject_syn|GNSSdemoproject_Implmnt
+# Sat Jan 13 21:51:30 2024
+
+Running: compile_flow (Compile Process) on GNSSdemoproject_syn|GNSSdemoproject_Implmnt
+# Sat Jan 13 21:51:30 2024
+
+Running: compiler (Compile Input) on GNSSdemoproject_syn|GNSSdemoproject_Implmnt
+# Sat Jan 13 21:51:30 2024
+compiler exited with errors
+Job failed on: GNSSdemoproject_syn|GNSSdemoproject_Implmnt
+
+Job: "compiler" terminated with error status: 2
+See log file: "C:\Users\Aljaz\OneDrive - Univerza v Ljubljani\PROJEKTI\GPS sprejemnik\FPGA\iCE40UP5K-GNSS-FPGA-board\iCE40UP5K_demo_project\GNSSdemoproject\GNSSdemoproject_Implmnt\synlog\GNSSdemoproject_compiler.srr"
+# Sat Jan 13 21:51:30 2024
+
+Return Code: 2
+Run Time:00h:00m:00s
+Complete: Compile Process on GNSSdemoproject_syn|GNSSdemoproject_Implmnt
+Complete: Compile on GNSSdemoproject_syn|GNSSdemoproject_Implmnt
+Complete: Logic Synthesis on GNSSdemoproject_syn|GNSSdemoproject_Implmnt
+
+exit status=2
+
+exit status=2
+
